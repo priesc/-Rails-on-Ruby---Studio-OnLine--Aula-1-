@@ -3,5 +3,5 @@
 require 'sinatra'
 
 get '/ola' do
-	"Olá, mundo!"
+	"Bem-vindo. Digite <a href='#'>Olá, mundo!</a>"
 end
