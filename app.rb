@@ -2,6 +2,10 @@
 
 require 'sinatra'
 
+get '/' do
+	erb :index
+end
+
 get '/ola' do
-	"Bem-vindo. Digite <a href='#'>Olá, mundo!</a>"
+	erb :index
 end
